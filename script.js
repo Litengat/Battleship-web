@@ -27,7 +27,7 @@ function renderBoard() {
     }
 }
 
-const socket = new WebSocket('wss://192.168.178.52:8080');
+const socket = new WebSocket('ws://192.168.178.52:8080');
 
 document.querySelector('#button').onclick = () => {
     const text = document.querySelector('#input').value;

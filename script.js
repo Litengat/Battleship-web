@@ -27,7 +27,7 @@ function renderBoard() {
     }
 }
 
-const socket = new WebSocket('ws://localhost:8080');
+const socket = new WebSocket('ws://https://laughing-yodel-7677w5v6wqj2x6gq-8080.app.github.dev:8080');
 
 document.querySelector('#button').onclick = () => {
     const text = document.querySelector('#input').value;
